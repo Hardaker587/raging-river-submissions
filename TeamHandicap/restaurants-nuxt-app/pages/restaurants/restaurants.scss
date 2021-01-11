@@ -1,0 +1,75 @@
+.restaurant-card {
+    position: relative;
+    width: 100%;
+    height: auto;
+    box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    .featured-img {
+        width: 100%;
+        height: auto;
+    }
+    .title {
+        font-size: 14px;
+        line-height: 18px;
+        vertical-align: middle;
+        margin: 0;
+        padding: 10px;
+    }
+    .rating {
+        display: inline-block;
+        border-radius: 50%;
+        color: #FFFFFF;
+        font-size: 12px;
+        line-height: 18px;
+        vertical-align: middle;
+        padding: 0 5px;
+    }
+    .card-label {
+        position: absolute;
+        display: inline-block;
+        top: 0;
+        left: 0;
+        padding: 5px 15px 5px 5px;
+        max-width: 100%;
+        background: linear-gradient(to bottom,#FF3333 0%,#BB0000 100%);
+        color: #FFFFFF;
+        border-bottom-right-radius: 50%;
+        opacity: 0.65;
+    }
+    .fav-img {
+        height: 20px;
+        width: auto;
+    }
+    .locality {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        padding: 0 10px 20px;
+        margin: 0;
+        color: #909090;
+    }
+    .card-btn-wrap {
+        display: block;
+        position: relative;
+        height: 40px;
+        width: 100%;
+        padding: 0px 10px 10px;
+        .btn {
+            cursor: pointer;
+            color: #090909;
+            background: linear-gradient(to bottom,#FFFFFF 0%,#C0C0C0 100%);
+        }
+        .btn-left {
+            position: absolute;
+            top: 0;
+            left: 10px;
+            width: calc(100% - 70px);
+        }
+        .btn-right {
+            position: absolute;
+            top: 0;
+            right: 10px;
+            padding: 0 5px;
+            width: 40px;
+        }
+    }
+}

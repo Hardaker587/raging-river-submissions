@@ -1,0 +1,26 @@
+{
+  "name": "restaurants-nuxt-app",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.12.2",
+    "@nuxtjs/pwa": "^3.0.2",
+    "bootstrap": "^4.5.3",
+    "core-js": "^3.6.5",
+    "leaflet": "^1.7.1",
+    "node-sass": "^5.0.0",
+    "nuxt": "^2.14.6",
+    "sass-loader": "^10.1.0",
+    "style-loader": "^2.0.0",
+    "vue2-leaflet": "^2.6.0"
+  },
+  "devDependencies": {
+    "@nuxtjs/vuetify": "^1.11.2"
+  }
+}

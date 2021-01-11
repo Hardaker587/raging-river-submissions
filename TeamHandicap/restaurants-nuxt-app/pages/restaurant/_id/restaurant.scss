@@ -1,0 +1,17 @@
+.featured-img {
+    width: 100%;
+    height: auto;
+}
+
+.info-block {
+    position: relative;
+    width: 100%;
+    padding: 0 0 15px 140px;
+    .label {
+        display: inline-block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 130px;
+    }
+}

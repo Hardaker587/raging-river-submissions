@@ -1,0 +1,36 @@
+.fav-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    li {
+        margin: 0;
+        padding: 0 0 15px;
+
+    }
+    .card {
+        position: relative;
+        width: 100%;
+        box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+        padding: 0 0 0 110px;
+        min-height: 100px;
+    }
+    .card-img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100px;
+        height: 100px;
+    }
+    .btn {
+        position: absolute;
+        width: 70px;
+        padding: 0;
+        right: 10px;
+    }
+    .btn-top {
+        top: 10px;
+    }
+    .btn-bottom {
+        top: 45px;
+    }
+}

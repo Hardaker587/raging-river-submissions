@@ -1,0 +1,12 @@
+# To see version compatibility for docker-compose and docker: https://docs.docker.com/compose/compose-file/compose-versioning/
+version: '3.5'
+services:
+  restaurants_db:
+    image: postgres:13.1-alpine # Fix the version with the tag for v13.1 so that postgres:latest don't fuck us around later if breaking version changes occur
+    env_file: 
+      - restaurant_db.env
+    volumes:
+      - /c/data/restaurant_db:/var/lib/postgresql/data/ # Mount the host C:\dev\data\restaurants_db in the container as /var/lib/postgresql/data
+    ports:
+      - 5432:5432
+

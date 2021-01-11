@@ -1,0 +1,57 @@
+{
+  "name": "vuejscompetition3men",
+  "version": "1.0.0",
+  "private": true,
+  "browser": {
+    "fs": false,
+    "path": false,
+    "os": false
+  },
+  "scripts": {
+    "dev": "nuxt-ts",
+    "build": "nuxt-ts build",
+    "start": "nuxt-ts start",
+    "generate": "nuxt-ts generate",
+    "lint:js": "eslint --ext .js,.vue --ignore-path .gitignore .",
+    "lint": "npm run lint:js"
+  },
+  "dependencies": {
+    "@highcharts/map-collection": "^1.1.3",
+    "@nuxt/typescript-runtime": "^2.0.0",
+    "@nuxtjs/auth": "^4.5.1",
+    "@nuxtjs/axios": "^5.12.2",
+    "core-js": "^3.6.5",
+    "cors": "^2.8.5",
+    "create-nuxt-app": "^3.4.0",
+    "express": "^4.17.1",
+    "fs": "^0.0.1-security",
+    "highcharts": "^8.2.2",
+    "json5": "^2.1.3",
+    "nuxt": "v2",
+    "sqlite": "^4.0.19",
+    "stylelint": "^13.8.0",
+    "ts": "^0.0.0",
+    "typescript": "^4.1.3",
+    "vue-loader": "^15.9.6",
+    "vuetify": "^2.4.0",
+    "webpack": "4"
+  },
+  "devDependencies": {
+    "@nuxt/types": "^2.14.6",
+    "@nuxt/typescript-build": "^2.0.3",
+    "@nuxtjs/eslint-config": "^3.1.0",
+    "@nuxtjs/eslint-config-typescript": "^3.0.0",
+    "@nuxtjs/eslint-module": "^2.0.0",
+    "@nuxtjs/vuetify": "^1.11.2",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.16.0",
+    "eslint-config-prettier": "^6.12.0",
+    "eslint-plugin-nuxt": "^1.0.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "prettier": "^2.2.1"
+  },
+  "description": "## Build Setup",
+  "main": ".eslintrc.js",
+  "author": "",
+  "license": "ISC"
+}

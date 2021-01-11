@@ -1,0 +1,32 @@
+{
+  "name": "nuxt",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt-ts",
+    "build": "nuxt-ts build",
+    "start": "nuxt-ts start",
+    "generate": "nuxt-ts generate"
+  },
+  "dependencies": {
+    "@nuxt/typescript-runtime": "^2.0.0",
+    "@nuxtjs/axios": "^5.12.4",
+    "@nuxtjs/proxy": "^2.1.0",
+    "@nuxtjs/toast": "^3.3.1",
+    "core-js": "^3.6.5",
+    "nuxt": "^2.14.6",
+    "vue-flipper": "^1.0.0",
+    "vuex": "^3.6.0"
+  },
+  "devDependencies": {
+    "@nuxt/types": "^2.14.6",
+    "@nuxt/typescript-build": "^2.0.3",
+    "@nuxtjs/eslint-config": "^5.0.0",
+    "@nuxtjs/eslint-module": "^3.0.2",
+    "@nuxtjs/pwa": "^3.3.3",
+    "@nuxtjs/vuetify": "^1.11.2",
+    "eslint": "^7.16.0",
+    "eslint-config-vue": "^2.0.2",
+    "eslint-plugin-vue": "^7.3.0"
+  }
+}

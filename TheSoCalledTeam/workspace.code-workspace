@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "..\\..\\TestProj\\example-auth0"
+		}
+	],
+	"settings": {}
+}
